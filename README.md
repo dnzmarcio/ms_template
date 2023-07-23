@@ -1,10 +1,23 @@
-# ms_template
-Icahn School of Medicine at Mount Sinai r templates
+# <%= title %> Format
 
 ## Installing
 
-To install the extension and create an example qmd file that you can use as an initial file.
+*TODO*: Replace the `<github-organization>` with your GitHub organization.
+
 ```bash
-quarto use template dnzmarcio/templates
+quarto use template <github-organization>/<%= filesafename %>
 ```
 
+This will install the extension and create an example qmd file that you can use as a starting place for your article.
+
+## Using
+
+*TODO*: Describe how to use your format.
+
+## Format Options
+
+*TODO*: If your format has options that can be set via document metadata, describe them.
+
+## Example
+
+Here is the source code for a minimal sample document: [example.qmd](example.qmd).

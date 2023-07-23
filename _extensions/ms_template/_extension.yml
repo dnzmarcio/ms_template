@@ -1,0 +1,13 @@
+title: Ms-template
+author: First Last
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    revealjs:
+      theme: [custom.scss]
+      logo: images/icahn_logo.png
+      footer: Biostatistics and Clinical Informatics Shared Facility
+      title-slide-attributes:
+          data-background-image: images/background_title.png
+

@@ -1,0 +1,46 @@
+/*-- scss:defaults --*/
+
+// Base document colors
+$body-color: #202172;
+$link-color: #00AEEF;
+
+.body {
+    background-color: #ffffff;
+    background-image:  url(images/icahn_footer.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/* TODO: Customize presentation appearance by setting SCSS variables */
+/* See https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes */
+
+/*-- scss:rules --*/
+
+/* TODO: Provide custom CSS rules */
+
+#title-slide {
+  text-align: left;
+  color: #FFFFFF !important;
+  
+  .title {
+    font-size: 54px;
+    color: #FFFFFF !important;
+  }
+  
+  .quarto-title-authors {
+    justify-content: left;
+    font-size: 36px;
+  
+    .quarto-title-author { // optional, test it for yourself
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+    }
+  }
+  
+  .date {
+    font-size: 24px;
+  }
+}
+
+
